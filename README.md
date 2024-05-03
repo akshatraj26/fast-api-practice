@@ -1,5 +1,16 @@
-<<<<<<< HEAD
-<code>`pip install fastapi pydantic[standard] pydantic[email] uvicorn`<code>
-=======
-<code>`pip install fastapi pydantic[standard] pydantic[email]`<code>
->>>>>>> 4a848017c244d655b58c088174d35b9505a89bfe
+
+# first you have to install these library to work with this
+```
+pip install fastapi pydantic[standard] pydantic[email] uvicorn ujson pytest orjson 
+```
+
+
+
+## to run these file run this command in your command line
+
+```
+uvicorn main:app --reload
+```
+
+this is same as importing
+main is script and app is variable
